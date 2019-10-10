@@ -6,7 +6,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
+import { FCM } from '@ionic-native/fcm';
+import { GooglePlus } from '@ionic-native/google-plus';
 @NgModule({
   declarations: [
     MyApp,
@@ -23,7 +24,10 @@ import { HomePage } from '../pages/home/home';
   ],
   providers: [
     StatusBar,
+    GooglePlus,
+
     SplashScreen,
+    FCM,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

@@ -1,3 +1,151 @@
 page-home {
 
+    .buy{
+        background: #074dca;
+        width:100%;
+        margin-top:3%;
+        margin-bottom:5%;
+
+    }
+    .buy ion-icon{
+        color:white; font-size: 1.3em;
+    }
+    
+    .icon-col{
+        margin:auto;
+        text-align: center;
+    }    
+    .toolbar-background{
+        background: #074dca;
+
+    }
+    .headerDiv{
+        width: 100%;
+        background: white;
+        border-radius: 50px;
+        height: 2em;
+        margin-top: -3%;
+        z-index: 10;
+        position: relative;
+    }
+     
+    .Buy-col{
+        margin:auto;
+        text-align: center;
+        color:white;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    .unitRow{
+        color: #074dca;
+        font-size: 21px;
+        justify-content: center;
+        padding-top: 1%;
+        // padding-bottom: 8%;
+        margin-bottom: 6%;
+
+        font-weight: bold;
+    }
+    .unitRow span{
+        color: #074fcada;
+        font-size: 15px;
+        margin-top: 1.6%;
+
+    }
+    .strtTime ion-col{
+        padding-left: 0px;
+    }
+    .start{
+        width: 100%;
+        font-size: 12px;
+        // justify-content: center;
+        margin-bottom: 5%;
+        padding-left: 7%;
+
+    }
+    .time{
+        width: 100%;
+        font-size: 26px;
+        // justify-content: center;
+        color: #005effea;
+        font-weight: bold;
+        margin-bottom: 5%;
+        padding-left: 7%;
+
+
+    }
+    .time span{
+        font-size: 12px;
+        margin-top: 10%;
+        color: #074fcada;
+    }
+    .day{
+        font-size: 13px;
+        width: 100%;
+        padding-left: 7%;
+
+        // margin-top: 1.5%;
+        color: #074fcada;
+    }
+    .durationHrs{
+        width: 100%;
+        font-size: 26px;
+        justify-content: center;
+        color: #005effea;
+        font-weight: bold;
+        margin-bottom: 1%;
+        margin-top: 5%;
+
+        // padding-left: 7%;
+    }
+    .durationHrs span{
+        font-size: 12px;
+        margin-top: 4%;
+        color: #074fcada;
+    }
+    .duration{
+        width:100%;
+        justify-content: center;
+        font-size: 13px;
+        margin-bottom: 6%;
+    }
+    .icon-round{
+        margin:auto;
+        text-align: center;
+    }
+    .amount{
+        font-size: 26px;
+        margin-top: 3px;
+        color: #005effea;
+        font-weight: bold;
+        padding-left: 6px;
+    }
+    .round{
+        border-radius: 50px;
+        width: 2em;
+        background: rgba(8, 91, 232, 0.36);
+        padding: 6px;
+        height: 2em;
+        color:white;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .range{
+        width:100%;
+        padding-left: 6px;
+        margin-top: 6%;
+
+    }
+    .searchBtn{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 2.5em;
+        width: 70%;
+        background: #005effea;
+    }
+    .search{
+        width:100%;
+        justify-content: center;
+    }
 }
