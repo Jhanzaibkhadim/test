@@ -1,67 +1,108 @@
 <ion-header>
-  <ion-navbar  >
-    <ion-row class="buy">
-      <ion-col class="icon-col" col-2>
-        <ion-icon name="md-arrow-back"></ion-icon>
-      </ion-col>
-      <ion-col class="Buy-col" col-8>
-        Buy
-      </ion-col>
-      <ion-col col-2>
+    <ion-navbar>
+        <ion-row class="buy">
+            <ion-col class="icon-col" col-2>
+                <ion-icon name="md-arrow-back"></ion-icon>
+            </ion-col>
+            <ion-col class="Buy-col" col-8>
+                Buy
+            </ion-col>
+            <ion-col col-2>
 
-      </ion-col>
-    </ion-row>
-  </ion-navbar>
-  <div class="headerDiv">
-   
-  </div>
+            </ion-col>
+        </ion-row>
+    </ion-navbar>
+    <div class="headerDiv">
+
+    </div>
 </ion-header>
 
 <ion-content padding>
-  <ion-row class="unitRow">
-    50-75 <span>UNITS</span>
-  </ion-row>
-  <hr>
-  <ion-row class="strtTime">
-    <ion-col col-5>
-      <ion-row class="start">
-        START TIME
-      </ion-row>
-      <ion-row class="time">
-        08:00 <span>AM</span>
-      </ion-row>
-      <ion-row  class="day">DAY,DD MM</ion-row>
-    </ion-col>
-    <ion-col class="icon-round" col-2>
-      <ion-row class="round">
-          <ion-icon name="arrow-forward"></ion-icon>
-      </ion-row>
+    <ion-row class="unitRow">
+        50-75 <span> &nbsp;UNITS</span>
+    </ion-row>
+    <hr>
+    <ion-row class="strtTime">
+        <ion-col col-5>
+            <ion-row class="start">
+                START TIME
+            </ion-row>
+            <ion-row class="time">
+                08:00 <span> &nbsp; AM</span>
+            </ion-row>
+            <ion-row class="day">DAY, DD MM</ion-row>
+        </ion-col>
+        <ion-col class="icon-round" col-2>
+            <ion-row class="round">
+                <ion-icon name="arrow-forward"></ion-icon>
+            </ion-row>
 
-    </ion-col>
-    <ion-col col-5>
-      <ion-row class="start">
-        START TIME
-      </ion-row>
-      <ion-row class="time">
-        08:00 <span>AM</span>
-      </ion-row>
-      <ion-row class="day">DAY,DD MM</ion-row>
-    </ion-col>
-  </ion-row>
-  <ion-row class="durationHrs">
-    01:00 <span>Hrs</span>
-  </ion-row>
-  <ion-row class="duration">
-    DURATION
-  </ion-row>
-  <hr>
+        </ion-col>
+        <ion-col col-5>
+            <ion-row class="start">
+                END TIME
+            </ion-row>
+            <ion-row class="time">
+                09:00 <span> &nbsp;AM</span>
+            </ion-row>
+            <ion-row class="day">DAY, DD MM</ion-row>
+        </ion-col>
+    </ion-row>
+    <ion-row class="durationHrs">
+        01:00 <span> &nbsp; Hrs</span>
+    </ion-row>
+    <ion-row class="duration">
+        DURATION
+    </ion-row>
+    <hr>
 
-  <ion-row class="range">
-    BUDGER RANGE
-  
-  </ion-row>
-  <p class="amount">$200-800</p>
-  <ion-row class="search">
-    <button ion-button class="searchBtn" round>SEARCH</button>
-  </ion-row>
+    <ion-row class="range">
+        BUDGER RANGE
+
+    </ion-row>
+    <p class="amount"> <span>&#8377;</span> 200-800</p>
+    <ion-row class="search">
+        <button ion-button class="searchBtn" round>SEARCH</button>
+    </ion-row>
+
+    <p>
+        HOT DEALS {{8.99 | currency:'INR':true}}
+    </p>
+
+    <ion-row class="dealScroller" nowrap>
+        <div class="innerDivSelected">
+            <ion-row class="grab">
+                Grab upto 50 units of <br> Power for just <span>&#8377;</span> 250/- only
+            </ion-row>
+            <ion-row class="enrgyText">
+                #GreenEnergy @NeverBefore
+            </ion-row>
+            <ion-row class="round_rate">
+                <div class="oneUnit">
+                    1 <span>Unit</span>
+                </div>
+                <div class="rate">
+                    <span>&#8377;</span> 5/-
+                </div>
+            </ion-row>
+        </div>
+        <div class="innerDiv">
+            <ion-row class="grab">
+                Flat <span>&#8377;</span> 500/- off on <br>purchase of 100 units
+            </ion-row>
+            <ion-row class="enrgyText">
+                Hurry-up offer until June 3 <br> T&C applicable
+            </ion-row>
+        </div>
+
+        <!-- <div class="innerDiv">
+            <ion-row class="grab">
+                Grab upto 50 units of <br> Power for just   <span>&#8377;</span> 250/- only
+            </ion-row>
+            <ion-row class="enrgyText">
+                #GreenEnergy @NeverBefore
+            </ion-row>
+        </div> -->
+
+    </ion-row>
 </ion-content>

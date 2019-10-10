@@ -8,6 +8,7 @@ import { GooglePlus } from '@ionic-native/google-plus';
 })
 export class HomePage {
 
+  symbol:any='₹';
   constructor(public navCtrl: NavController, private googlePlus: GooglePlus) {
 
   }
